@@ -1,0 +1,70 @@
+
+
+.card
+{
+ display: flex;
+ border-color:none;
+ justify-content: center;
+ width: 600px;
+ padding: 40px;
+ margin-top: 30px;
+ position:absolute;
+ height: 600px;
+ top: 60%;
+ left:50%;
+ transform: translate(-50%,-50%);
+background-color: hsla(105, 16%, 20%,4);
+background: linear-gradient(90deg, hsla(125, 6%,  3% , 4) 0%, hsla(160,21%, 36%, 4) 90%);
+font-family:cursive;
+min-height: 60vh;
+}
+
+.card
+h2,h6
+{
+  color: #fff;
+  align-items: center;
+}
+
+label {
+   color: #fff;
+   font-family: cursive;
+
+
+}
+
+
+.card
+h2,h5
+{
+  color:#fff;
+
+}
+
+label {
+   color: rgb(239, 231, 231);
+   font-family:cursive;
+
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+
+}
+
+button{
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: lem;
+  font-weight: 600;
+}

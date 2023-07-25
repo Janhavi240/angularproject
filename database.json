@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "signupUser": [
+    
+
+
+    {
+      "fullname": "abc",
+      "email": "janhavidangche@gmail.com",
+      "password": "00000",
+      "mobile": 123456789,
+      "id": 4
+    },
+
+    {
+      "fullname": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 6
+    }
+
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

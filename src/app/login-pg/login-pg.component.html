@@ -1,0 +1,51 @@
+
+<div class="container m-5 p-5">
+  <div class="row">
+    <div class="col-md-6">
+    <div class="card">
+      <div class="text-center">
+        <h2>Login</h2>
+        <h5>Enter email and password</h5>
+      </div>
+      <form>
+           <form [formGroup]="loginform" (ngSubmit)="Login()">
+                <div class ="mb-3">
+                <link rel="stylesheet"
+                 href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+                <span class="material-symbols-outlined">mail</span>
+                <label style="font-family: cursive;" for="exampleInputEmail1">Email </label>
+                <input formControlName="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                [ngClass]="{'is-invalid' : f['email'].touched && f['email'].errors}">
+                 <span class="text-danger" *ngIf="loginform.controls['email'].dirty && loginform.hasError('required','email')">*Email id is required</span>
+              </div>
+             <br>
+
+             <div class ="mb-3">
+              <link rel="stylesheet"
+              href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+              <span class="material-symbols-outlined">lock</span>
+              <label style="font-family: cursive;" for="exampleInputPassword1">Password</label>
+               <input formControlName="password" class="form-control" id="exampleInputPassword1"
+               [ngClass]="{'is-invalid' : f['password'].touched && f['password'].errors}">
+                <span class="text-danger" *ngIf="loginform.controls['password'].dirty && loginform.hasError('required','password')">*password is required</span>
+               <br>
+
+               <label class="forgot">
+                <input style="font-family: cursive;" type="checkbox">Remember me!</label><a href="forgot">Forget Password? </a>
+
+              </div>
+              <button type="submit" class="btn btn-info">Login</button>
+           </form>
+             <p style="color: white;">Don't have a account ? click to signup</p>
+             <a routerLink="/sign-up">Sign Up</a>
+      </form>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+

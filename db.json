@@ -1,0 +1,59 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "signupUser": [
+    {
+      "fullname": "abc",
+      "email": "janhavidangche@gmail.com",
+      "password": "00000",
+      "mobile": 123456789,
+      "id": 4
+    },
+    {
+      "fullname": "janhavvi ",
+      "username": "janahhhhhh",
+      "email": "aaaaaaaj@gmail.com",
+      "password": "123456789",
+      "confirmPassword": "123456789",
+      "acceptTerms": true,
+      "id": 5
+    },
+    {
+      "fullname": "janhavid",
+      "username": "janhavi123",
+      "email": "janhavidangche@gamil.com",
+      "password": "1234567890",
+      "confirmPassword": "1234567890",
+      "acceptTerms": true,
+      "id": 6
+    },
+    {
+      "fullname": "rinaa k",
+      "username": "rina123",
+      "email": "rina@123gmail.com",
+      "password": "12345678",
+      "confirmPassword": "12345678",
+      "acceptTerms": true,
+      "isActive": false,
+      "id": 7
+    },
+    {
+      "fullname": "jaydev dangche",
+      "username": "jaydev 12",
+      "email": "jaydev@gmail.com",
+      "password": "jaydev12",
+      "confirmPassword": "jaydev12",
+      "acceptTerms": true,
+      "isActive": false,
+      "id": 8
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

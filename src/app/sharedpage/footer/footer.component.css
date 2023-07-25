@@ -1,0 +1,36 @@
+/* footer  */
+
+.footer
+{
+    overflow: hidden;
+    position: sticky;
+    /* top: 100%; */
+    background-color: hsla(105, 16%, 20%,4);
+     background: linear-gradient(90deg, hsla(125, 6%,  3% , 4) 0%, hsla(160,21%, 36%, 4) 90%);
+    padding: 10px 10px;
+}
+
+h1{
+    font-weight: bold;
+    color: #fff;
+    font-size: 30px;
+}
+
+p{
+    color: #fff;
+    font-size: 12px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 17px;
+}
+a:hover{
+    color:yellow;
+}
+
+i{
+    padding: 0px 10px;
+}
